@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A6DEB6D1CAF4FAB009E2AFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DEB6C1CAF4FAB009E2AFF /* AppDelegate.m */; };
+		2A6DEB701CAF4FAB009E2AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DEB6F1CAF4FAB009E2AFF /* main.m */; };
+		2A6DEB731CAF4FAB009E2AFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DEB721CAF4FAB009E2AFF /* ViewController.m */; };
+		2A6DEB751CAF4FAB009E2AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A6DEB741CAF4FAB009E2AFF /* Assets.xcassets */; };
+		2A6DEB781CAF4FAB009E2AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6DEB761CAF4FAB009E2AFF /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A6DEB681CAF4FAB009E2AFF /* TalkIRCForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkIRCForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A6DEB6B1CAF4FAB009E2AFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A6DEB6C1CAF4FAB009E2AFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A6DEB6F1CAF4FAB009E2AFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A6DEB711CAF4FAB009E2AFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A6DEB721CAF4FAB009E2AFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A6DEB741CAF4FAB009E2AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A6DEB771CAF4FAB009E2AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A6DEB791CAF4FAB009E2AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A6DEB651CAF4FAB009E2AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A6DEB5F1CAF4FAB009E2AFF = {
+			isa = PBXGroup;
+			children = (
+				2A6DEB6A1CAF4FAB009E2AFF /* TalkIRCForMac */,
+				2A6DEB691CAF4FAB009E2AFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A6DEB691CAF4FAB009E2AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A6DEB681CAF4FAB009E2AFF /* TalkIRCForMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A6DEB6A1CAF4FAB009E2AFF /* TalkIRCForMac */ = {
+			isa = PBXGroup;
+			children = (
+				2A6DEB6B1CAF4FAB009E2AFF /* AppDelegate.h */,
+				2A6DEB6C1CAF4FAB009E2AFF /* AppDelegate.m */,
+				2A6DEB711CAF4FAB009E2AFF /* ViewController.h */,
+				2A6DEB721CAF4FAB009E2AFF /* ViewController.m */,
+				2A6DEB741CAF4FAB009E2AFF /* Assets.xcassets */,
+				2A6DEB761CAF4FAB009E2AFF /* Main.storyboard */,
+				2A6DEB791CAF4FAB009E2AFF /* Info.plist */,
+				2A6DEB6E1CAF4FAB009E2AFF /* Supporting Files */,
+			);
+			path = TalkIRCForMac;
+			sourceTree = "<group>";
+		};
+		2A6DEB6E1CAF4FAB009E2AFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A6DEB6F1CAF4FAB009E2AFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A6DEB671CAF4FAB009E2AFF /* TalkIRCForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A6DEB7C1CAF4FAB009E2AFF /* Build configuration list for PBXNativeTarget "TalkIRCForMac" */;
+			buildPhases = (
+				2A6DEB641CAF4FAB009E2AFF /* Sources */,
+				2A6DEB651CAF4FAB009E2AFF /* Frameworks */,
+				2A6DEB661CAF4FAB009E2AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkIRCForMac;
+			productName = TalkIRCForMac;
+			productReference = 2A6DEB681CAF4FAB009E2AFF /* TalkIRCForMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A6DEB601CAF4FAB009E2AFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ryo;
+				TargetAttributes = {
+					2A6DEB671CAF4FAB009E2AFF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 2A6DEB631CAF4FAB009E2AFF /* Build configuration list for PBXProject "TalkIRCForMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A6DEB5F1CAF4FAB009E2AFF;
+			productRefGroup = 2A6DEB691CAF4FAB009E2AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A6DEB671CAF4FAB009E2AFF /* TalkIRCForMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A6DEB661CAF4FAB009E2AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6DEB751CAF4FAB009E2AFF /* Assets.xcassets in Resources */,
+				2A6DEB781CAF4FAB009E2AFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A6DEB641CAF4FAB009E2AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6DEB731CAF4FAB009E2AFF /* ViewController.m in Sources */,
+				2A6DEB701CAF4FAB009E2AFF /* main.m in Sources */,
+				2A6DEB6D1CAF4FAB009E2AFF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A6DEB761CAF4FAB009E2AFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A6DEB771CAF4FAB009E2AFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A6DEB7A1CAF4FAB009E2AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2A6DEB7B1CAF4FAB009E2AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2A6DEB7D1CAF4FAB009E2AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TalkIRCForMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arao.TalkIRCForMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A6DEB7E1CAF4FAB009E2AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TalkIRCForMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arao.TalkIRCForMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A6DEB631CAF4FAB009E2AFF /* Build configuration list for PBXProject "TalkIRCForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A6DEB7A1CAF4FAB009E2AFF /* Debug */,
+				2A6DEB7B1CAF4FAB009E2AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A6DEB7C1CAF4FAB009E2AFF /* Build configuration list for PBXNativeTarget "TalkIRCForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A6DEB7D1CAF4FAB009E2AFF /* Debug */,
+				2A6DEB7E1CAF4FAB009E2AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A6DEB601CAF4FAB009E2AFF /* Project object */;
+}
