@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A2074991CB099AA0097FC19 /* talk.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2A2074981CB099AA0097FC19 /* talk.icns */; };
 		2A6DEB6D1CAF4FAB009E2AFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DEB6C1CAF4FAB009E2AFF /* AppDelegate.m */; };
 		2A6DEB701CAF4FAB009E2AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DEB6F1CAF4FAB009E2AFF /* main.m */; };
 		2A6DEB731CAF4FAB009E2AFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DEB721CAF4FAB009E2AFF /* ViewController.m */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A2074981CB099AA0097FC19 /* talk.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = talk.icns; sourceTree = "<group>"; };
 		2A6DEB681CAF4FAB009E2AFF /* TalkIRCForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkIRCForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6DEB6B1CAF4FAB009E2AFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A6DEB6C1CAF4FAB009E2AFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		2A6DEB6A1CAF4FAB009E2AFF /* TalkIRCForMac */ = {
 			isa = PBXGroup;
 			children = (
+				2A2074981CB099AA0097FC19 /* talk.icns */,
 				2A6DEB6B1CAF4FAB009E2AFF /* AppDelegate.h */,
 				2A6DEB6C1CAF4FAB009E2AFF /* AppDelegate.m */,
 				2A6DEB711CAF4FAB009E2AFF /* ViewController.h */,
@@ -135,6 +138,7 @@
 			files = (
 				2A6DEB751CAF4FAB009E2AFF /* Assets.xcassets in Resources */,
 				2A6DEB781CAF4FAB009E2AFF /* Main.storyboard in Resources */,
+				2A2074991CB099AA0097FC19 /* talk.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +255,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TalkIRCForMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.arao.TalkIRCForMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -263,6 +268,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TalkIRCForMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.arao.TalkIRCForMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -287,6 +293,7 @@
 				2A6DEB7E1CAF4FAB009E2AFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -50,6 +50,10 @@ static int sendMessage_NoChangeTime = 1;
     [self.connectButton setEnabled:YES];
     
     [self.logTextView setEditable:NO];
+    
+    [self.text setHidden:YES];
+    
+    
 }
 
 - (void)setRepresentedObject:(id)representedObject {
@@ -62,6 +66,7 @@ static int sendMessage_NoChangeTime = 1;
     
     [self.connectButton setEnabled:YES];
     [self.disconnectButton setEnabled:NO];
+    [self.text setHidden:YES];
 
     [self disconnect];
 }
@@ -80,6 +85,7 @@ static int sendMessage_NoChangeTime = 1;
     }
     [self.connectButton setEnabled:NO];
     [self.disconnectButton setEnabled:YES];
+    [self.text setHidden:NO];
     [self initNetworkCommunication];
     
     // ターマーセット
@@ -242,6 +248,7 @@ static int sendMessage_NoChangeTime = 1;
             [self disconnect];
             [self.disconnectButton setEnabled:NO];
             [self.connectButton setEnabled:YES];
+            [self.text setHidden:YES];
 
             break;
             
